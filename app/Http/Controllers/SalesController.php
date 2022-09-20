@@ -21,7 +21,6 @@ class SalesController extends Controller
                 ->update([
                     'product_stock' =>  $new_stock
                 ]);
-                // print_r($query);
             Productbysales::create([
                 'product_id' => $product['id'],
                 'product_name' => $product['product_name'],

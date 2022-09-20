@@ -17,6 +17,7 @@ class Productbysales extends Model
         'product_weigth',
         'product_category',
         'product_stock',
+        'product_qty',
         'id_sale'
     ];
 
